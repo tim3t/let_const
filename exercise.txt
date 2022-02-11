@@ -1,0 +1,9 @@
+const PI = 3.14;
+
+Var can be reassigned, redeclared, mutated, and is function scoped whereas let can be reassigned and mutated, but not redeclared and is block scoped.
+
+Var and const differ in that var can be reassigned, redeclared, mutated, and is function scope whereas const cannot be reassigned, redeclared, but can mutate and is block scoped.
+
+Let and const are both block scoped, but let can be reassigned and mutated whereas const can only be mutated.
+
+Hoisting is where JS lifts a variable (or function declaration) to the top of the scope they are defined within. Var allows you to access the variable name prior to it's actual line declaration due to hoisting.
